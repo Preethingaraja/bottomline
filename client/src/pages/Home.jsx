@@ -6,7 +6,7 @@ import { useRef, useEffect, useState } from 'react';
 
 /* ── Animated Floating Finance Particles ── */
 const FinanceParticles = () => {
-  const symbols = ['₹', '$', '€', '£', '%', '↑', '↗', '▲', '✦', '◆'];
+  const symbols = ['₹', '$', '€', '£', '↑', '↗', '▲', '✦', '◆'];
   const particles = Array.from({ length: 24 }, (_, i) => ({
     id: i,
     symbol: symbols[i % symbols.length],
